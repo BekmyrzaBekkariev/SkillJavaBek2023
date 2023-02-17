@@ -9,7 +9,7 @@ public class l2l5WhilePassword {
         int secretPinCode = 7567;
         int pinCode = -1;
 
-        Scanner scaner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         while (pinCode != secretPinCode) {
             if(pinCode == -1){
                 System.out.println("Ведите пароль");
@@ -17,7 +17,7 @@ public class l2l5WhilePassword {
             else {
                 System.out.println("Пароль введён не верно. Ведите пароль.");
             }
-            pinCode = scaner.nextInt();
+            pinCode = scanner.nextInt();
         }
 
         System.out.println("Пароль введён не верно!!!");

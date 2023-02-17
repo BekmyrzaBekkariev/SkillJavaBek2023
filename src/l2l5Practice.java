@@ -10,7 +10,7 @@ public class l2l5Practice {
             if (age == 15) {
                 System.out.print("Наслаждайтесь");
             }
-            if (age > 16 && age < 18) {
+            if (age >= 16 && age < 18) {
                 System.out.print("Иметь ученические права,");
             }
             if(age >= 18) {
