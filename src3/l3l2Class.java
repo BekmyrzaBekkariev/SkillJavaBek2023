@@ -1,6 +1,6 @@
 // Понятия Обьекта и Класса
 
-package src;
+package src3;
 
 public class l3l2Class {
 

@@ -1,7 +1,7 @@
 // Переменные
 // int
 
-package src;
+package src2;
 public class l2l3 {
     public static void main(String[] args) {
         int some = 80; // Целочисленные

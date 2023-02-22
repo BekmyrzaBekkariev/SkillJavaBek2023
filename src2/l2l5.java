@@ -1,6 +1,6 @@
 // ЦЫКЛЫ
 
-package src;
+package src2;
 
 
 public class l2l5 {

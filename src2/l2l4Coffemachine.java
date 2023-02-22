@@ -1,4 +1,4 @@
-package src;
+package src2;
 public class l2l4Coffemachine { // Это класс
     public static void main(String[] args) {
         // psvm + Enter = public static void main(String[] args) {}  -  Это МЕТОД

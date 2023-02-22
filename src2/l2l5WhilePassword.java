@@ -1,6 +1,6 @@
 
 // Напишем код с помощью Цикла While проверка пороли
-package src;
+package src2;
 
 import java.util.Scanner;
 

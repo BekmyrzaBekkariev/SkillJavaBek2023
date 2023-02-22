@@ -1,5 +1,5 @@
 
-package src;
+package src2;
 
 public class l2l5Practice {
     public static void main(String[] args) {
