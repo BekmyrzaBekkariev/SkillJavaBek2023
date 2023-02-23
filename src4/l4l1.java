@@ -24,5 +24,36 @@ public class l4l1 {
 //        cat2.drink(100);
 //        System.out.println(cat.getWeight());
 //        System.out.println(cat2.getWeight());
+
+        // Если сравнивать БОЛЬШИЕ ЧИСЛА ТО МОЖЕТ ошибится тогда нужно исрользовать методы
+        Integer vasya3Age = 23423422;
+        Integer masha3Age = 23423422;
+        System.out.println(vasya3Age == masha3Age); // False
+        //Если же сравнивать маленькие то True
+
+        Integer age = 5; // Это почти примитив
+        // Преоброзование Примитива в Обьект то Boxing
+
+        Integer age2 = 5;
+        int mishaAge = 7;
+        System.out.println(age2 < mishaAge); // Здесь происходит Unboxing
+
+
+        //
+        double a = 24.0;
+        double b = 0.1;
+        System.out.println(a * b);
+        // java.math.BigInteger(a*b); - вот они нужны
+
+        // Преоброзование сток в число и обратно
+        String number = "213.234";
+
+        double doubleNumber = Double.parseDouble(number);
+        System.out.println(doubleNumber);
+
+        // И обратно с помощю метода toString()
+        Integer numa = 3245665;
+        System.out.println(numa.toString());
+
     }
 }
