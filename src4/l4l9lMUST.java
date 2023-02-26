@@ -17,5 +17,12 @@ public class l4l9lMUST {
 
         // Можно и с текстоми работать
         // Можно разбить текст по предложениям
+
+        String text = "Дмитрий Петрович ждёт вас.  Выходите через 5 минут.";
+        String[] sentences = text.split("\\.\\s+");
+
+        for (int i = 0; i < sentences.length; i++){
+            System.out.println(sentences[i]);
+        }
     }
 }
