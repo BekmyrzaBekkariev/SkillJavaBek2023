@@ -35,5 +35,24 @@ public class l5l1 {
         for (int i = 0; i < colors1.length; i++){
             System.out.println(colors1[i]);
         }
+
+        // Можно обращятся по другому
+        String text1 = "Каждый охотник желает знать, где сидит фазан";
+        String[] colors2 = text1.split(",?\\s+");
+
+        // Вот сдесь мы могли бы сделать так
+        // Созжаем переменную colorWord
+
+        for (String colorWord : colors2){
+            System.out.println(colorWord);
+        }
+        // Мы используем тогда КОГДА НЕ НУЖЕН НОМЕР ЭЛЕМЕНТА В МАССИВЕ
+        // Если НУЖЕН ТО используем i перемнную как в 1
+
+        //C Цифрами тоже можно !
+        int[] cc = {1,2,3,3,4,5,6,7,8};
+        for (int ss : cc){
+            System.out.println(ss);
+        }
     }
 }
