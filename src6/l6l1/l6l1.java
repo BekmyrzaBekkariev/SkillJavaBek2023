@@ -10,6 +10,18 @@ public class l6l1 {
     public static void main(String[] args) {
         Square square = new Square(40);
         System.out.println(square.getSquare());
+        System.out.println("Ж");
 
+
+        // 6.2 УРОК здесь
+        // Модификаторы доступа - это те
+        // public
+        // protected
+        // private
+
+        // Мы хотим ограничить доступ к переменным = и для этого есть protected
+
+
+        // Этот день 6.03.23 я Купил ПЕРЕХОДНИК
     }
 }
