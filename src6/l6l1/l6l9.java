@@ -2,7 +2,7 @@ package src6.l6l1;
 
 public class l6l9 {
     public static void main(String[] args) {
-        // Сравнивание с помощью Compareble
+        // Сравнивание с помощью Comparable
         // метод .compareTo
 
         String first = "a";
