@@ -9,5 +9,4 @@ public class l1l3 {
 
     // psvm - Это для сокращения  public static void main(String[] args) {}
 
-
 }

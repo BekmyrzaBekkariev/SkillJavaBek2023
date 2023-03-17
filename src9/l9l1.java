@@ -1,9 +1,8 @@
 package src9;
 
 import java.io.File;
-import java.io.FileInputStream;
 
-public class l9l1lfile {
+public class l9l1 {
     public static void main(String[] args) {
         // Работа с Файлами
 
@@ -17,7 +16,9 @@ public class l9l1lfile {
         System.out.println(file.isFile());
 
         // Чтение файлов с помощью FileInputStream
-            FileInputStream is = new FileInputStream("D:/SkillJavaBek2023/src9");
+        // FileInputStream is = new FileInputStream("D:/SkillJavaBek2023/src9");
+
+        System.out.println("О боже я почто что ничего не понимаю просто курс такой 16.03.23");
 
     }
 }
